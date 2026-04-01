@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>THE ATELIER | Ethereal Velvet</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;family=Manrope:wght@300;400;600;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "surface-container-high": "#ebe8e3",
+                        "secondary-container": "#e2dfde",
+                        "inverse-primary": "#e5c183",
+                        "outline": "#7f7668",
+                        "on-secondary-container": "#636262",
+                        "tertiary-container": "#8294bb",
+                        "on-primary": "#ffffff",
+                        "error-container": "#ffdad6",
+                        "surface-container": "#f1ede8",
+                        "on-secondary-fixed": "#1c1b1b",
+                        "secondary": "#5f5e5e",
+                        "inverse-on-surface": "#f4f0eb",
+                        "on-secondary": "#ffffff",
+                        "background": "#fdf9f4",
+                        "outline-variant": "#d1c5b5",
+                        "primary": "#755a26",
+                        "on-tertiary": "#ffffff",
+                        "inverse-surface": "#31302d",
+                        "on-primary-fixed": "#271900",
+                        "surface-container-low": "#f7f3ee",
+                        "on-error-container": "#93000a",
+                        "on-surface-variant": "#4d463a",
+                        "surface": "#fdf9f4",
+                        "tertiary-fixed-dim": "#b4c7f0",
+                        "surface-variant": "#e6e2dd",
+                        "surface-bright": "#fdf9f4",
+                        "on-error": "#ffffff",
+                        "surface-container-highest": "#e6e2dd",
+                        "surface-tint": "#755a26",
+                        "surface-container-lowest": "#ffffff",
+                        "on-surface": "#1c1c19",
+                        "surface-dim": "#ddd9d5",
+                        "on-tertiary-container": "#192c4d",
+                        "on-background": "#1c1c19",
+                        "on-tertiary-fixed-variant": "#354769",
+                        "error": "#ba1a1a",
+                        "on-primary-fixed-variant": "#5b4310",
+                        "secondary-fixed": "#e5e2e1",
+                        "on-tertiary-fixed": "#051b3b",
+                        "primary-fixed": "#ffdea7",
+                        "primary-fixed-dim": "#e5c183",
+                        "secondary-fixed-dim": "#c8c6c5",
+                        "primary-container": "#af8f55",
+                        "tertiary": "#4d5e82",
+                        "on-secondary-fixed-variant": "#474746",
+                        "tertiary-fixed": "#d7e2ff",
+                        "on-primary-container": "#3c2900"
+                    },
+                    fontFamily: {
+                        "headline": ["Noto Serif"],
+                        "body": ["Manrope"],
+                        "label": ["Manrope"]
+                    },
+                    borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 0, 'opsz' 24;
+            font-size: 1.5rem;
+        }
+        .hide-scrollbar::-webkit-scrollbar { display: none; }
+        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background font-body selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- TopAppBar -->
+<nav class="fixed top-0 w-full z-50 bg-[#fdf9f4]/80 dark:bg-[#1c1c19]/80 backdrop-blur-xl">
+<div class="flex justify-between items-center w-full px-8 py-6 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-[#755a26] dark:text-[#af8f55]" data-icon="menu">menu</span>
+</div>
+<h1 class="text-2xl font-headline tracking-widest text-[#755a26] dark:text-[#af8f55]">THE ATELIER</h1>
+<div class="flex items-center gap-4">
+<button class="font-label text-xs tracking-[0.1em] text-[#755a26] dark:text-[#af8f55] font-semibold">SHOP NOW</button>
+</div>
+</div>
+</nav>
+<main>
+<!-- Hero Section -->
+<section class="relative min-h-[795px] flex flex-col justify-end overflow-hidden pt-24">
+<div class="absolute inset-0 z-0">
+<img alt="Ethereal Velvet Perfume Bottle" class="w-full h-full object-cover" data-alt="Luxury perfume bottle with gold accents on a dark velvet surface with dramatic cinematic lighting and floating gold dust particles" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC4kUICYI3HkzAzINDmLTa79Y_gFzlkXDrpwxwXZDtn3o9VXWm-rfBQKPHaP-NmomqO4B_9PJTyL2BfhGlXyxmEWdVPDFZa9ot4r2Nn-j-dXUYCqVFfKJAAu3p8Y42U4lHR1BFb5w3GYYYl3uHcg2CkPV5TfVLL09G-bKlFNvn11mWB3uUhyErYfZww3ru1uo4hiYyz5_x28dpFD6Um5RJZKP7UccNChkxfUF9CRz5AEyk1_ulf01S_JQP-M3QXR3EEip2fLR8EWlOO"/>
+<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent"></div>
+</div>
+<div class="relative z-10 px-8 pb-20 max-w-4xl">
+<span class="font-label text-[0.75rem] uppercase tracking-[0.2em] text-primary mb-4 block">New Collection</span>
+<h2 class="font-headline text-[3rem] leading-[1.1] mb-8 text-on-surface">Experience the New Essence: <span class="italic block">Ethereal Velvet</span></h2>
+<button class="bg-gradient-to-r from-primary to-primary-container text-on-primary px-10 py-4 rounded-lg font-label text-xs uppercase tracking-[0.1em] shadow-lg transition-transform active:scale-95 duration-200 ease-in-out">
+                    Discover the Scent
+                </button>
+</div>
+</section>
+<!-- Product Slider (Carousel) -->
+<section class="py-24 overflow-hidden">
+<div class="px-8 mb-12 flex items-end justify-between">
+<div>
+<h3 class="font-headline text-3xl text-on-surface">Curated Collections</h3>
+<p class="font-body text-sm text-on-surface-variant mt-2 opacity-70">Olfactory journeys meticulously crafted.</p>
+</div>
+</div>
+<div class="flex overflow-x-auto hide-scrollbar gap-8 px-8 snap-x snap-mandatory">
+<!-- Card 1 -->
+<div class="min-w-[85vw] md:min-w-[400px] snap-center">
+<div class="relative aspect-[4/5] mb-6 overflow-hidden bg-surface-container-low group">
+<img alt="Midnight Rose Perfume" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Minimalist elegant perfume bottle with dark floral elements in the background, soft shadows, moody high-end editorial style" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDv_Lx54SYUtHiGSGKZivR3nkpyB4FjhB1wRXZDU4lvYolyCYa7YOLw3r3WX50keU65rgruGiTOCpcj3QDvJTHQoKrf9uwefK6W4zYcPeVzKFkJ7wVRGWlU7Rjxk-BNNNL9UQYFS1mkM4pDz03xFtni6IDUriHba2UB2f9qGDkimKqrpiDf6OScBf8RLT9ns33DI_sYuG_jy4yQrqzX42Y97Q7W1SaP7FdnTSvv08-tKCPigPefOEreunxmdQPXp6INiIGPQkY-Lqqw"/>
+</div>
+<div class="flex justify-between items-start">
+<div>
+<h4 class="font-headline text-xl text-on-surface">Midnight Rose</h4>
+<p class="font-label text-[0.75rem] text-primary mt-1">$125</p>
+</div>
+<button class="text-primary font-label text-xs uppercase tracking-widest border-b border-primary/20 pb-1 hover:border-primary transition-all">Shop Now</button>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="min-w-[85vw] md:min-w-[400px] snap-center">
+<div class="relative aspect-[4/5] mb-6 overflow-hidden bg-surface-container-low group">
+<img alt="Golden Sands Perfume" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Luxurious golden perfume bottle on a warm sand texture with soft morning sunlight and long shadows, airy high-fashion look" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCgXOnNCjV8aZW9tLIANlaWRaR6_wW7b0g9foonNUGK9nBGmllkqWbfctXDCe7plis6D3J-NcZ8Ho7Zoq9ses0XR0H8xv1aqqiIo3qVwPi1OYwX925ioN7BBdZpL67k49CPx7MStzpcKwmCEvYZswDtYQxJ1_bpCVm0MKsht7pP_DFth3piH3s4OF2X4321KnQB9YQNFF1MOy-uddYdeiyfiHn17wYvu4fvV2ze716ICvm0azPBXu5PVeOO0e_MfSmMIkDmc0McJ0UJ"/>
+</div>
+<div class="flex justify-between items-start">
+<div>
+<h4 class="font-headline text-xl text-on-surface">Golden Sands</h4>
+<p class="font-label text-[0.75rem] text-primary mt-1">$140</p>
+</div>
+<button class="text-primary font-label text-xs uppercase tracking-widest border-b border-primary/20 pb-1 hover:border-primary transition-all">Shop Now</button>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="min-w-[85vw] md:min-w-[400px] snap-center">
+<div class="relative aspect-[4/5] mb-6 overflow-hidden bg-surface-container-low group">
+<img alt="Azure Breeze" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Elegant crystal perfume bottle reflecting bright blue water surfaces, clean minimalist lighting, fresh and modern aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDkzr-txDI71VoRE4X-t_AVFf776yanriF02_6rukefzU4H9N1MO9-xarZM6YpIXnm7qPOaE-tRQD2ZjSH2dAElXDxqUf57v0hBpiDKIjTZ3sIqQT3eEZHIfd6buoov6yec6xwPWu7agKhiVWD_5TRQysd7-tMqwHQYHaqz4IWUc99uUbPQ6KbQGyTKNWnBBhnmH2-SLTJ02KmolMRkpyefVWFf_UgmRBa1XUsz7RoTZ9TOX9CZaLlcXnJNXJzT61SG1yiGI1gM5RZq"/>
+</div>
+<div class="flex justify-between items-start">
+<div>
+<h4 class="font-headline text-xl text-on-surface">Azure Breeze</h4>
+<p class="font-label text-[0.75rem] text-primary mt-1">$110</p>
+</div>
+<button class="text-primary font-label text-xs uppercase tracking-widest border-b border-primary/20 pb-1 hover:border-primary transition-all">Shop Now</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Brand Story Section -->
+<section class="py-24 bg-surface-container-low">
+<div class="max-w-screen-xl mx-auto px-8 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+<div class="order-2 md:order-1">
+<span class="font-label text-[0.75rem] uppercase tracking-[0.2em] text-primary mb-6 block">Our Heritage</span>
+<h3 class="font-headline text-[2.5rem] leading-[1.2] mb-8 text-on-surface">Alchemy of the Soul</h3>
+<p class="font-body text-md leading-[1.8] text-on-surface-variant opacity-80 max-w-md">
+                        Since 1924, The Atelier has stood at the intersection of traditional craftsmanship and avant-garde olfactory art. We believe a scent is more than a fragrance—it is a liquid memory, bottled in the finest French crystal. Each note is hand-selected from our private estates, ensuring a purity that transcends the digital age.
+                    </p>
+<div class="mt-12 flex gap-4">
+<span class="bg-surface-container-highest px-6 py-2 rounded-full font-body text-xs text-on-surface-variant">Rare Oud</span>
+<span class="bg-surface-container-highest px-6 py-2 rounded-full font-body text-xs text-on-surface-variant">White Musk</span>
+<span class="bg-surface-container-highest px-6 py-2 rounded-full font-body text-xs text-on-surface-variant">Petrichor</span>
+</div>
+</div>
+<div class="order-1 md:order-2">
+<div class="relative p-4 bg-surface rounded-xl shadow-2xl rotate-2">
+<img alt="Artisan at work" class="w-full h-auto rounded-sm" data-alt="Macro close-up of a master perfumer's hands measuring golden liquid into a vintage glass vial in a sunlit botanical studio" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA0db51NlLq-ajOMdC9MwBChFmSMzSe3CtNfPkoTlN7GpXDrIx37sacf3TLf77P3XQagkEKUHEr5enxAejb1aqi4dAlkPGcbJCO06C6Ag3X3GUxEyaRGFImY6_AjwIVkET-gtmvC5IQL-x84KL8NBIZ1Hd5SmWolrKMR6cGnDOxx03MmBmVgvGCjJ6CZkMYxDbdWln8PNrl7qNiJOlIkUEzYgDljbe3kw9s9r89BwnKM_GxH5mDKphVLJXYgMU9UcxUB7in-aKWd3y4"/>
+</div>
+</div>
+</div>
+</section>
+<!-- Call to Action Section -->
+<section class="py-32 flex flex-col items-center justify-center text-center px-8">
+<h3 class="font-headline text-[2.5rem] mb-12 text-on-surface max-w-2xl">Find your signature presence among our masterpieces.</h3>
+<button class="group relative overflow-hidden bg-primary text-on-primary px-12 py-5 rounded-lg font-label text-sm uppercase tracking-[0.2em] transition-all duration-300">
+<span class="relative z-10">Shop the Entire Collection</span>
+<div class="absolute inset-0 bg-primary-container translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
+</button>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#f7f3ee] dark:bg-[#1c1c19] w-full relative">
+<div class="flex flex-col md:flex-row justify-between items-center px-12 py-16 w-full mt-24">
+<div class="mb-12 md:mb-0">
+<h2 class="text-xl font-headline text-[#755a26]">THE ATELIER</h2>
+<p class="font-label text-[0.6rem] tracking-[0.2em] text-[#1c1c19] dark:text-[#fdf9f4] mt-4 opacity-50 uppercase">Perfumers of the extraordinary.</p>
+</div>
+<div class="flex flex-wrap justify-center gap-10">
+<a class="font-label text-[0.875rem] uppercase tracking-[0.1em] text-[#755a26] underline-offset-8 underline hover:opacity-50 transition-opacity" href="#">COLLECTIONS</a>
+<a class="font-label text-[0.875rem] uppercase tracking-[0.1em] text-[#1c1c19] dark:text-[#fdf9f4] hover:opacity-50 transition-opacity" href="#">OUR STORY</a>
+<a class="font-label text-[0.875rem] uppercase tracking-[0.1em] text-[#1c1c19] dark:text-[#fdf9f4] hover:opacity-50 transition-opacity" href="#">BOUTIQUES</a>
+<a class="font-label text-[0.875rem] uppercase tracking-[0.1em] text-[#1c1c19] dark:text-[#fdf9f4] hover:opacity-50 transition-opacity" href="#">CONTACT</a>
+</div>
+<div class="flex gap-6 mt-12 md:mt-0">
+<span class="material-symbols-outlined text-[#755a26] hover:opacity-50 cursor-pointer" data-icon="share">share</span>
+<span class="material-symbols-outlined text-[#755a26] hover:opacity-50 cursor-pointer" data-icon="public">public</span>
+<span class="material-symbols-outlined text-[#755a26] hover:opacity-50 cursor-pointer" data-icon="alternate_email">alternate_email</span>
+</div>
+</div>
+<div class="w-full text-center pb-8">
+<p class="font-label text-[0.65rem] tracking-[0.1em] text-[#1c1c19] dark:text-[#fdf9f4] opacity-40">© 2024 THE ATELIER. ALL RIGHTS RESERVED.</p>
+</div>
+</footer>
+</body></html>
